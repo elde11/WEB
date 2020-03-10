@@ -1,0 +1,40 @@
+.breadcrumps {
+    background-color: $primary-color;
+    padding: 100px 0;
+
+
+    .container {
+        h2 {
+            text-align: center;
+            margin: 0 0 100px 0;
+            font-weight: 700;
+            @include fluid-type (320px, 1170px, 26px, 36px);
+        }
+
+        ul {
+            text-align: center;
+
+            li {
+                &:last-child {
+                    &:after {
+                        display: none;
+                    }
+                }
+
+                display: inline-block;
+
+                &:after {
+                    display: inline-block;
+                    content: "/";
+                    margin: 0 20px;
+
+                }
+
+
+
+
+            }
+        }
+
+    }
+}

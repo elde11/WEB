@@ -1,0 +1,62 @@
+.newletter {
+    padding: 75px 0;
+    background-color: #747474;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .text {
+            font-size: 18px;
+            color: $primary-color;
+            padding: 0 15px 0 0;
+        }
+
+        .button {
+            button {
+                border: 0;
+                background-color: $secondary-color;
+                color: $primary-color;
+                padding: 15px 20px;
+                border-radius: 5px;
+                white-space: nowrap;
+                cursor: pointer;
+
+            }
+
+            button:hover {
+                color: lightblue;
+            }
+        }
+    }
+}
+
+
+
+.modal {
+    display: none;
+    background-color: $partners-bg-color;
+    color: $secondary-color;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px dashed $secondary-color;
+
+
+    span {
+        padding-right: 1em;
+    }
+
+
+
+    button {
+        border: 0;
+        padding: 8px 12px;
+        border-radius: 20px;
+        white-space: nowrap;
+    }
+
+    button:hover {
+        color: lightblue;
+    }
+}
