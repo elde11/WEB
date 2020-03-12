@@ -10,11 +10,9 @@ slowo = input("Wpisz slowo: ")
 slowo = input("Wprowadź słowo: ")
 l = len(slowo)
 c = l-1
-i = 0, i==True 
-i!= 0, i== False
 for i in range(len(slowo)):
 while i < p:
-    if slowo[i] != slowo[c-1]:
+    if slowo[i] != slowo[i-1]:
         print("Słowo jest palindromem")
         pass
     else:
